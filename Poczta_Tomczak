@@ -7,8 +7,7 @@
 </head>
 <body>
 <h1><b>Poczta</b></h1>
-<a href="https://outlook.live.com">link do poczty</a>
-<h2><a href="index.html">powrót na strone główną</a></h2>
-<IMG SRC="https://paradacreativa.es/wp-content/uploads/2020/08/Como-configurar-Hotmail-en-Outlook-y-Windows-Mail.jpg">
+<a href="https://poczta.wp.pl/w/mails?label=1">link do poczty</a>
+<h2><a href="README.md">powrót na strone główną</a></h2>
  </body>
 </html>
