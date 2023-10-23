@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #66FFFF;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formularz dla uczniów</h1>
+    
+    <form action="mailto:mkryniew@ids.gda.pl?subject=Nazwisko_Ucznia" method="post">
+        <label for="imie">Imię:</label>
+        <input type="text" id="imie" name="imie" required placeholder="Wprowadź imie"><br><br>
+
+        <label for="nazwisko">Nazwisko:</label>
+        <input type="text" id="nazwisko" name="nazwisko" placeholder="Wprowadź nazwisko"><br><br>
+
+        <label for="opinia">Opinia o szkole:</label>
+        <textarea id="opinia" name="opinia" rows="4" cols="50"></textarea><br><br>
+
+        <h2>W jakiej placówce szkolnej się uczysz:</h2>
+        <input type="radio" id="radio1" name="radioGrupa1" value="opcja1" checked>
+        <label for="radio1">Szkoła Podstawowa</label>
+        <input type="radio" id="radio2" name="radioGrupa1" value="opcja2">
+        <label for="radio2">Zawodówka</label>
+        <input type="radio" id="radio3" name="radioGrupa1" value="opcja3">
+        <label for="radio3">Technikum</label>
+        <input type="radio" id="radio4" name="radioGrupa1" value="opcja4">
+        <label for="radio4">Liceum</label><br><br>
+
+        <h2>Czy interesujesz się sportem:</h2>
+        <input type="radio" id="radio5" name="radioGrupa2" value="opcja5" checked>
+        <label for="radio5">Tak</label><br>
+        <input type="radio" id="radio6" name="radioGrupa2" value="opcja6">
+        <label for="radio6">Nie</label><br>
+        <input type="radio" id="radio7" name="radioGrupa2" value="opcja7">
+        <label for="radio7">Nie wiem</label><br><br>
+
+        <h2>Jakie są twoje zainteresowania:</h2>
+        <input type="radio" id="radio8" name="radioGrupa3" value="opcja8" checked>
+        <label for="radio8">Sport</label>
+        <input type="radio" id="radio9" name="radioGrupa3" value="opcja9">
+        <label for="radio9">Nauka</label>
+        <input type="radio" id="radio10" name="radioGrupa3" value="opcja10">
+        <label for="radio10">Gry komputerowe</label>
+        <input type="radio" id="radio11" name="radioGrupa3" value="opcja11">
+        <label for="radio11">Karty</label>
+        <input type="radio" id="radio12" name="radioGrupa3" value="opcja12">
+        <label for="radio12">Inne</label><br><br>
+
+        <h2>Ile czasu poświęcasz na czytanie książek?</h2>
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="opcja1">
+        <label for="checkbox1">Nie czytam książek</label><br>
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="opcja2">
+        <label for="checkbox2">Raz na jakiś czas czytam</label><br>
+        <input type="checkbox" id="checkbox3" name="checkbox3" value="opcja3">
+        <label for="checkbox3">Dosyć często</label><br>
+        <input type="checkbox" id="checkbox4" name="checkbox4" value="opcja4">
+        <label for="checkbox4">Zawsze w wolnym czasie</label><br><br>
+
+        <h2>Jaką preferujesz metodę nauki</h2>
+        <input type="checkbox" id="checkbox5" name="checkbox5" value="opcja5">
+        <label for="checkbox5">Uczę się stopniowo codziennie po około 2h</label><br>
+        <input type="checkbox" id="checkbox6" name="checkbox6" value="opcja6">
+        <label for="checkbox6">Uczę się dzień przed sprawdzanem</label><br>
+        <input type="checkbox" id="checkbox7" name="checkbox7" value="opcja7" checked>
+        <label for="checkbox7">Nie uczę się (zgapiam)</label><br>
+ 	<input type="checkbox" id="checkbox8" name="checkbox7" value="opcja8" checked>
+        <label for="checkbox8">Inaczej niż wymienione wcześniej</label><br><br>
+
+        <h2>Do jakiej klasy chodzisz:</h2>
+        <label for="lista1">Szkoła podstawowa klasa 1-6:</label>
+        <select id="lista1" name="lista1">
+            <option value="opcja1" selected>Klasa 1</option>
+            <option value="opcja2">Klasa 2</option>
+            <option value="opcja3">Klasa 3</option>
+            <option value="opcja4">Klasa 4</option>
+            <option value="opcja5">Klasa 5</option>
+	    <option value="opcja6">Klasa 6</option>
+        </select><br><br>
+
+        <label for="lista2">Szkoła podstawowa klasa 7-8:</label>
+        <select id="lista2" name="lista2">
+            <option value="opcja6">Klasa 7</option>
+            <option value="opcja7">Klasa 8</option>
+        </select><br><br>
+
+        <label for="lista3">Szkoła ponadpodstawowa klasa 1-5:</label>
+        <select id="lista3" name="lista3">
+            <option value="opcja10" selected>Klasa 1</option>
+            <option value="opcja11">Klasa 2</option>
+            <option value="opcja12">Klasa 3</option>
+            <option value="opcja12">Klasa 4</option>
+            <option value="opcja12">Klasa 5</option>
+        </select><br><br>
+
+        <input type="submit" value="Wyślij">
+        <input type="reset" value="Czyść">
+    </form>
+</table>
+</center>
+ <A HREF="index.html"> Wróć </A>
+</body>
+</html>
