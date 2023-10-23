@@ -166,10 +166,10 @@ Tomczak&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 <h2>
 <br>
-    <a HREF="Formularz_Rudnik.html"> Link do formularza</a> <br>
-    <a HREF="Tabela_Rudnik.html">  Link do Tabeli</a> <br>
-    <a HREF="Plik_Rudnik.html">  Link do Pliku</a> <br>
-    <a HREF="Poczta_Rudnik.html">  Link do Poczty</a> <br>
+    <a HREF="Formularz_Tomczak.html"> Link do formularza</a> <br>
+    <a HREF="Tabela_Tomczak.html">  Link do Tabeli</a> <br>
+    <a HREF="Plik_Tomczak.html">  Link do Pliku</a> <br>
+    <a HREF="Poczta_Tomczak.html">  Link do Poczty</a> <br>
 </h2>
 </body>
 
